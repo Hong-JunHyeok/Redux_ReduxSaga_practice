@@ -7,12 +7,12 @@ const useCounter = () => {
   const dispatch = useDispatch();
   const state = useSelector((state: RootReducerType) => state.counter);
 
-  const onIncrease = () => {
+  const onIncrease = useCallback(() => {
     dispatch(increaseAsync());
-  };
-  const onDecrease = () => {
+  }, [dispatch]);
+  const onDecrease = useCallback(() => {
     dispatch(decreaseAsync());
-  };
+  }, [dispatch]);
 
   return { state, onIncrease, onDecrease };
 };
