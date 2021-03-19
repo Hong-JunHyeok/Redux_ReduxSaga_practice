@@ -7,5 +7,6 @@
 - react-redux : 리액트 환경에서 리덕스를 사용하기 위한 라이브러리입니다.
 - redux-saga : 리덕스에서 비동기 처리를 하기위한 미들웨어를 지원하는 라이브러리입니다.
 
-modules 파일구조
+## modules 파일구조
+
 ![image](https://user-images.githubusercontent.com/48292190/111722066-75f5f700-88a4-11eb-9206-6737388ec5fd.png)
