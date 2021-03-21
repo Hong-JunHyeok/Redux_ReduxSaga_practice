@@ -5,7 +5,7 @@ import User from 'components/users/User';
 function App() {
   return (
     <>
-      Hello Redux
+      Hello Redux with Redux Saga
       <Counter />
       <hr />
       <User />
